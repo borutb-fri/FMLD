@@ -20,6 +20,8 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 - [Wider_training.txt](Wider_training.txt)
 - [Wider_testing.txt](Wider_testing.txt)
 
+## Labels/Annotations for all images
+Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
 ## Citation
 If you find this dataset useful, please use following citation
