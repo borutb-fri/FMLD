@@ -34,16 +34,16 @@ All images are annotated with labels indicating the presence of face masks, the 
 - the source dataset.
 
 ### The annotated face in the image can be:
-- with mask (name: *masked_face*),
-- without mask (name: *unmasked_face*) and
-- with mask worn incorrectly (name: *incorrectly_masked_face*).
+#### - with mask (name: *masked_face*),
+#### - without mask (name: *unmasked_face*) and
+#### - with mask worn incorrectly (name: *incorrectly_masked_face*).
 
 ### Each face object has bounding box information and labels for
 - gender (*male / female*),
 - ethnicity (*asian / white / black*) and
 - pose (*front / turned sideways*).
 
-Note: *difficult* label in testing dataset
+### Note: *difficult* label in testing dataset
 - faces with invalid label in original dataset (*invalid_face*)
 - faces in original dataset but not included in our FMLD dataset (*unmasked_face*)
 - additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
