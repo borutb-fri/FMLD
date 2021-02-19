@@ -24,16 +24,27 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
 ## Citation
-If you find this dataset useful, please use following citation
+If you use our annotations, please use following citation
 ```
+[1] Batagelj, B.; Peer, P.; Štruc. V.; Dobrišek S. How to correctly detect face masks for COVID-19 from visual information? Appl. Sci. 20XX, XX, XXXX. https://doi.org/XX.XXXX/appXXXXXXX
+
 [2]
 @inproceedings{ge2017detecting,
   title={Detecting Masked Faces in the Wild with LLE-CNNs},
   author={Ge, Shiming and Li, Jia and Ye, Qiting and Luo, Zhao},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   pages={2682--2690},
-  year={2017},
+  year={2017}
 }
+
+[3]
+@inproceedings{yang2016wider,
+	Author = {Yang, Shuo and Luo, Ping and Loy, Chen Change and Tang, Xiaoou},
+	Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	Title = {WIDER FACE: A Face Detection Benchmark},
+	Year = {2016}
+}
+
 ```
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
