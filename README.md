@@ -34,9 +34,9 @@ All images are annotated with labels indicating the presence of face masks, the 
 - the source dataset.
 
 ### The annotated face in the image can be:
-#### - with mask (name: *masked_face*),
-#### - without mask (name: *unmasked_face*) and
-#### - with mask worn incorrectly (name: *incorrectly_masked_face*).
+- **with mask (name: *masked_face*),
+- **without mask (name: *unmasked_face*) and
+- **with mask worn incorrectly (name: *incorrectly_masked_face*).
 
 ### Each face object has bounding box information and labels for
 - gender (*male / female*),
@@ -66,10 +66,10 @@ Appl. Sci. 20XX, XX, XXXX. https://doi.org/XX.XXXX/appXXXXXXX
 
 [3]
 @inproceedings{yang2016wider,
-	Author = {Yang, Shuo and Luo, Ping and Loy, Chen Change and Tang, Xiaoou},
-	Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-	Title = {WIDER FACE: A Face Detection Benchmark},
-	Year = {2016}
+  Author = {Yang, Shuo and Luo, Ping and Loy, Chen Change and Tang, Xiaoou},
+  Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  Title = {WIDER FACE: A Face Detection Benchmark},
+  Year = {2016}
 }
 
 ```
