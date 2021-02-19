@@ -24,7 +24,7 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
 ## Citation
-If you use our annotations, please use following citation
+If you use our annotations, please use following citations
 ```
 [1] Batagelj, B.; Peer, P.; Štruc. V.; Dobrišek S. How to correctly detect face masks for COVID-19 from visual information? Appl. Sci. 20XX, XX, XXXX. https://doi.org/XX.XXXX/appXXXXXXX
 
