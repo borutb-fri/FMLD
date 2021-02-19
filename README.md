@@ -1,7 +1,7 @@
 # Face-Mask-Label-Dataset (FMLD)
 A challenging, in the wild dataset for experimentation with face masks. The dataset is the biggest annotated face mask dataset with 63,072 face images.
 
-Images annotated for FMLD were taken from the [MAFA](https://imsg.ac.cn/research/maskedface.html) [2]
+Images annotated for FMLD were taken from the [MAFA](https://imsg.ac.cn/research/maskedface.html) [2] [[Google Drive](https://drive.google.com/open?id=1nbtM1n0--iZ3VVbNGhocxbnBGhMau_OG), [mirror](https://www.kaggle.com/rahulmangalampalli/mafa-data)]
 
 
 ## Citation
