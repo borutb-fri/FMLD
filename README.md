@@ -34,9 +34,9 @@ All images are annotated with labels indicating the presence of face masks, the 
 - the source dataset.
 
 ### The annotated face in the image can be:
-- **with mask (name: *masked_face*),
-- **without mask (name: *unmasked_face*) and
-- **with mask worn incorrectly (name: *incorrectly_masked_face*).
+- **with mask** (name: *masked_face*),
+- **without mask** (name: *unmasked_face*) and
+- **with mask worn incorrectly** (name: *incorrectly_masked_face*).
 
 ### Each face object has bounding box information and labels for
 - gender (*male / female*),
