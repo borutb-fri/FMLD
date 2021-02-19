@@ -23,7 +23,31 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 ## Labels/Annotations for all images
 Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
-![labels](images/labels-01.png)
+![labels](images/labels-01.png "Available labels and the label distribution across the faces annotated for FMLD.")
+As can be seen, the dataset contains labels for gender, pose and ethnicity in addition to the main labels indicating the presence of face masks and their correct/incorrect placement.
+
+All images are annotated with labels indicating the presence of face masks, the placement of face masks (i.e., correct or incorrect), the gender of the subjects, their ethnicity and head pose.
+
+We used XML files in the PASCAL VOC file format for annotations. The annotation file for each image contains information about:
+- the name of the original image,
+- it’s size and
+- the source dataset.
+
+The annotated face in the image can be:
+- with mask (name: *masked_face*),
+- without mask (name: *unmasked_face*) and
+- with mask worn incorrectly (name: *incorrectly_masked_face*).
+
+Each face object has bounding box information and labels for
+- gender (*male / female*),
+- ethnicity (*asian / white / black*) and
+- pose (*front / turned sideways*).
+
+Note: *difficult* label in testing dataset
+
+- faces with invalid label in original dataset (*invalid_face*)
+- faces in original dataset but not included in our FMLD dataset (*unmasked_face*)
+- additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
 
 ## Citation
 If you use our annotations, please use following citations
