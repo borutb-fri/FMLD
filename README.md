@@ -23,7 +23,7 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 ## Labels/Annotations for all images
 Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
-![labels](images/labels.png)
+![labels](images/labels-01.png)
 
 ## Citation
 If you use our annotations, please use following citations
