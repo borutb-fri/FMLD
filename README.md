@@ -12,11 +12,11 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 ![tabel](images/table.png)
 
 ## Dataset lists
-### lists of images from the MAFA dataset:
+### Lists of images from the MAFA dataset:
 - [MAFA_training.txt](MAFA_training.txt)
 - [MAFA_testing.txt](MAFA_testing.txt)
 
-### lists of images from the Wider Face dataset
+### Lists of images from the Wider Face dataset
 - [Wider_training.txt](Wider_training.txt)
 - [Wider_testing.txt](Wider_testing.txt)
 
@@ -48,10 +48,14 @@ All images are annotated with labels indicating the presence of face masks, the 
 - faces in original dataset but not included in our FMLD dataset (*unmasked_face*)
 - additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
 
+## Support code
+
+MATLAB code for show annotations and save faces from images.
 
 ## Example usage
 ### Monitoring if people are using masks correctly
 
+Pytorch model for classification.
 
 
 ## Citation
