@@ -11,6 +11,16 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 
 ![tabel](images/table.png)
 
+## Dataset lists
+### lists of images from the MAFA dataset:
+- [MAFA_training.txt](MAFA_training.txt)
+- [MAFA_testing.txt](MAFA_testing.txt)
+
+### lists of images from the Wider Face dataset
+- [Wider_training.txt](Wider_training.txt)
+- [Wider_testing.txt](Wider_testing.txt)
+
+
 ## Citation
 If you find this dataset useful, please use following citation
 ```
