@@ -5,6 +5,10 @@ Images annotated for FMLD were taken from the
 - [MAFA](https://imsg.ac.cn/research/maskedface.html) [2] [MAFA Datasets: [Google Drive](https://drive.google.com/open?id=1nbtM1n0--iZ3VVbNGhocxbnBGhMau_OG), [Kaggle](https://www.kaggle.com/rahulmangalampalli/mafa-data)] and 
 - [Wider Face](http://shuoyang1213.me/WIDERFACE) [3] [Training Images: [Google Drive](https://drive.google.com/file/d/0B6eKvaijfFUDQUUwd21EckhUbWs/view?usp=sharing), Validation Images: [Google Drive](https://drive.google.com/file/d/0B6eKvaijfFUDd3dIRmpvSk8tLUk/view?usp=sharing)] datasets.
 
+## Overall FMLD statistics
+
+Images annotated for FMLD were taken from the MAFA and Wider Face datasets and partitioned into three classes (correctly worn masks, incorrectly worn masks and without masks) and later equipped with additional labels.
+
 ![tabel](images/table.png)
 
 ## Citation
