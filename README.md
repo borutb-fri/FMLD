@@ -48,6 +48,12 @@ All images are annotated with labels indicating the presence of face masks, the 
 - faces in original dataset but not included in our FMLD dataset (*unmasked_face*)
 - additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
 
+
+## Example usage
+### Monitoring if people are using masks correctly
+
+
+
 ## Citation
 If you use our annotations, please use following citations
 ```
