@@ -50,7 +50,7 @@ All images are annotated with labels indicating the presence of face masks, the 
 
 ## Support code
 
-MATLAB code for display images with annotations and save faces from images.
+```show_save_gt.m```: MATLAB code for display images with annotations and save faces from images.
 
 ## Example usage
 ### Monitoring if people are using masks correctly
