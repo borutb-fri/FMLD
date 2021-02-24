@@ -23,7 +23,7 @@ image_transforms = {
 }
 
 # Load the Data
-dataset = 'COVID19-v3/faces'
+dataset = 'faces'
 test_directory = os.path.join(dataset, 'test')
 
 # Batch size
@@ -105,7 +105,7 @@ def computeTestSetAccuracy(model, loss_criterion, data_loader, data_size):
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 loss_func = nn.CrossEntropyLoss() #for a multi-class classification problem 
   
-model_file = 'resnet152_154.pt'
+model_file = 'resnet152.pt'
 if os.path.exists(model_file):    
     model = torch.load(model_file)
     model = model.to(device)
