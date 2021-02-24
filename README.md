@@ -50,14 +50,14 @@ All images are annotated with labels indicating the presence of face masks, the 
 
 ## Support code
 
-```[show_save_gt.m](show_save_gt.m)```: MATLAB code for display images with annotations and save faces from images.
+[show_save_gt.m](show_save_gt.m): MATLAB code for display images with annotations and save faces from images.
 
 ## Example usage
 ### Monitoring if people are using masks correctly
 
-```[resnet152.pt]()```: Pytorch model for classification.
+[resnet152.pt](): Pytorch model for classification.
 
-```[mask-test.py](mask-test.py)```: Python code to classify the correctly worn mask (*compliant/non-compliant*)
+[mask-test.py](mask-test.py): Python code to classify the correctly worn mask (*compliant/non-compliant*)
 
 ![shema](images/shema.png "Overall pipeline designed for the evaluation procedure.")
 
