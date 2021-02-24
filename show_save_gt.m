@@ -1,3 +1,5 @@
+%   Copyright 2021 Borut Batagelj.
+
 show_annotations=0; %show image with annotations
 save_faces=1; %save faces from images to folders: correctly_worn, without_mask, incorrectly_worn
 
