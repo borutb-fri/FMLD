@@ -11,6 +11,9 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 
 ![tabel](images/table.png)
 
+## Labels/Annotations for all images
+Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
+
 ## Dataset lists
 ### Lists of images from the MAFA dataset:
 - [MAFA_training.txt](MAFA_training.txt)
@@ -19,9 +22,6 @@ Images annotated for FMLD were taken from the MAFA and Wider Face datasets and p
 ### Lists of images from the Wider Face dataset
 - [Wider_training.txt](Wider_training.txt)
 - [Wider_testing.txt](Wider_testing.txt)
-
-## Labels/Annotations for all images
-Our annotations [1]:  [FMLD_annotations.zip](FMLD_annotations.zip)
 
 ![labels](images/labels-01.png "Available labels and the label distribution across the faces annotated for FMLD.")
 As can be seen, the dataset contains labels for gender, pose and ethnicity in addition to the main labels indicating the presence of face masks and their correct/incorrect placement.
@@ -55,15 +55,27 @@ All images are annotated with labels indicating the presence of face masks, the 
 ## Example usage
 ### Monitoring if people are using masks correctly
 
-Pytorch model for classification.
+```resnet152.pt```: Pytorch model for classification.
+```mask-test.py```: Python code to classify the correctly worn mask (*compliant/non-compliant*)
 
 
 ## Citation
 If you use our annotations, please use following citations
 ```
-[1] Batagelj, B.; Peer, P.; Štruc. V.; Dobrišek S. 
-How to correctly detect face masks for COVID-19 from visual information? 
-Appl. Sci. 20XX, XX, XXXX. https://doi.org/XX.XXXX/appXXXXXXX
+[1] 
+@Article{app10144913,
+AUTHOR = {Batagelj, B.; Peer, P.; Štruc. V.; Dobrišek S.},
+TITLE = {How to correctly detect face masks for COVID-19 from visual information? },
+JOURNAL = {Applied Sciences},
+VOLUME = {10},
+YEAR = {2020},
+NUMBER = {14},
+ARTICLE-NUMBER = {XXXX},
+URL = {https://www.mdpi.com/XXXX},
+ISSN = {XXXX},
+ABSTRACT = {Currently there is no publicly available adequate dataset that could be used for training Generative Adversarial Networks (GANs) on car images. All available car datasets differ in noise, pose, and zoom levels. Thus, the objective of this work was to create an improved car image dataset that would be better suited for GAN training. To improve the performance of the GAN, we coupled the LSUN and Stanford car datasets. A new merged dataset was then pruned in order to adjust zoom levels and reduce the noise of images. This process resulted in fewer images that could be used for training, with increased quality though. This pruned dataset was evaluated by training the StyleGAN with original settings. Pruning the combined LSUN and Stanford datasets resulted in 2,067,710 images of cars with less noise and more adjusted zoom levels. The training of the StyleGAN on the LSUN-Stanford car dataset proved to be superior to the training with just the LSUN dataset by 3.7% using the Fr&eacute;chet Inception Distance (FID) as a metric. Results pointed out that the proposed LSUN-Stanford car dataset is more consistent and better suited for training GAN neural networks than other currently available large car datasets.},
+DOI = {XXXX}
+}
 
 [2]
 @inproceedings{ge2017detecting,
