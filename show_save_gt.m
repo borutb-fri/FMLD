@@ -1,6 +1,6 @@
 %   Copyright 2021 Borut Batagelj.
 
-show_annotations=0; %show image with annotations
+show_annotations=1; %show image with annotations
 save_faces=1; %save faces from images to folders: correctly_worn, without_mask, incorrectly_worn
 
 gt_dir='FMLD_annotations/'; %FMLD xml folder
@@ -11,7 +11,7 @@ gt_files=dir([gt_dir,'*/*.xml']);
 gt_num=size(gt_files,1);
 
 
-if save_faces
+if save_faces && ~exist('faces','dir')
   mkdir('faces/test/compliant/correctly_worn');  
   mkdir('faces/test/non-compliant/without_mask');
   mkdir('faces/test/non-compliant/incorrectly_worn');
@@ -32,6 +32,10 @@ for i=1:gt_num
   end
   
   if (save_faces || show_annotations)
+    if ~exist(image_path,'dir')
+      [filepath,~,~] = fileparts(image_path);
+      fprintf('Download %s dataset and provide images in folder: %s.\n',mlStruct.annotation.source.database,filepath);
+    end
     I=imread(image_path);
     [h,w,~]=size(I);
   end
