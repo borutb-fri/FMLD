@@ -55,7 +55,7 @@ All images are annotated with labels indicating the presence of face masks, the 
 ## Example usage
 ### Monitoring if people are using masks correctly
 
-[resnet152.pt](): Pytorch model for classification.
+[resnet152.pt](https://unilj-my.sharepoint.com/:u:/g/personal/borutb_fri1_uni-lj_si/EdmDsIgG9XBJkRVXDKyOwvEBK7pK1EEq9cBfOVm3kLzPvw?e=M9pULa): Pytorch model for classification.
 
 [mask-test.py](mask-test.py): Python code to classify the correctly worn mask (*compliant/non-compliant*)
 
