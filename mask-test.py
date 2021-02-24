@@ -6,7 +6,6 @@ Created on Tue Mar 31 22:57:43 2020
 """
 
 import os
-import requests
 
 import torch
 from torchvision import transforms, datasets
