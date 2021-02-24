@@ -6,6 +6,7 @@ Created on Tue Mar 31 22:57:43 2020
 """
 
 import os
+import requests
 
 import torch
 from torchvision import transforms, datasets
@@ -43,7 +44,7 @@ transform=image_transforms['test']
 
 # Get a mapping of the indices to the class names, in order to see the output classes of the test images.
 idx_to_class = {v: k for k, v in data['test'].class_to_idx.items()}
-print(idx_to_class)
+print('Classes: ',idx_to_class)
 
 # Size of Data, to be used for calculating Average Loss and Accuracy
 test_data_size = len(data['test'])
@@ -52,7 +53,7 @@ test_data_size = len(data['test'])
 test_data_loader = DataLoader(data['test'], batch_size=bs, shuffle=False)
 
 # Print the test set data sizes
-print(test_data_size)
+print('Number of faces: ',test_data_size)
 
 def computeTestSetAccuracy(model, loss_criterion, data_loader, data_size):
     '''
@@ -111,3 +112,6 @@ if os.path.exists(model_file):
     model = model.to(device)
     avg_test_acc=computeTestSetAccuracy(model, loss_func, test_data_loader, test_data_size)
     print("Test accuracy : " + str(avg_test_acc))
+else:
+    print("Warrning: No Pytorch model for classification: resnet152.pt. Please Download it from GitHub link.\n")
+    
