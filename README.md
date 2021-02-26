@@ -65,18 +65,17 @@ All images are annotated with labels indicating the presence of face masks, the 
 If you use our annotations, please use following citations
 ```
 [1] 
-@Article{app10144913,
-AUTHOR = {Batagelj, B.; Peer, P.; Štruc. V.; Dobrišek S.},
-TITLE = {How to correctly detect face masks for COVID-19 from visual information? },
+@Article{app11052070,
+AUTHOR = {Batagelj, Borut and Peer, Peter and Štruc, Vitomir and Dobrišek, Simon},
+TITLE = {How to Correctly Detect Face-Masks for COVID-19 from Visual Information?},
 JOURNAL = {Applied Sciences},
-VOLUME = {10},
-YEAR = {2020},
-NUMBER = {14},
-ARTICLE-NUMBER = {XXXX},
-URL = {https://www.mdpi.com/XXXX},
-ISSN = {XXXX},
-ABSTRACT = {},
-DOI = {XXXX}
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {5},
+ARTICLE-NUMBER = {2070},
+URL = {https://www.mdpi.com/2076-3417/11/5/2070},
+ISSN = {2076-3417},
+DOI = {10.3390/app11052070}
 }
 
 [2]
