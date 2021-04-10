@@ -43,7 +43,7 @@ All images are annotated with labels indicating the presence of face masks, the 
 - ethnicity (*asian / white / black*) and
 - pose (*front / turned sideways*).
 
-### Note: *difficult* label in testing dataset (<difficult>1</difficult>)
+### Note: *difficult* label in testing dataset (difficult=1)
 - faces with invalid label in original dataset (name: *invalid_face*)
 - faces in original dataset but not included in our FMLD dataset (*unmasked_face*)
 - additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
