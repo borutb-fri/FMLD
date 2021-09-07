@@ -52,8 +52,8 @@ for i=1:gt_num
     
     xmin=max(1,str2num(mlStruct.annotation.object(ii).bndbox.xmin)+1);
     ymin=max(1,str2num(mlStruct.annotation.object(ii).bndbox.ymin)+1);
-    xmax=min(w,str2num(mlStruct.annotation.object(ii).bndbox.xmax)+1);
-    ymax=min(h,str2num(mlStruct.annotation.object(ii).bndbox.ymax)+1);  
+    xmax=min(w,str2num(mlStruct.annotation.object(ii).bndbox.xmax));
+    ymax=min(h,str2num(mlStruct.annotation.object(ii).bndbox.ymax));  
     BBox=[xmin ymin xmax-xmin ymax-ymin];
         
     if strcmp(mlStruct.annotation.object(ii).difficult,'1')  
