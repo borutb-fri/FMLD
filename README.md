@@ -51,7 +51,7 @@ All images are annotated with labels indicating the presence of face masks, the 
 - additional faces added using a face detector (*masked_face /unmasked_face/incorrectly_masked_face*)
 
 ## Support code
-code for display images with annotations and save faces from images
+Code for display images with annotations and save test/train faces from images.
 
 MATLAB code : [show_save_gt.m](show_save_gt.m)\
 Python code : [show_save_gt.py](show_save_gt.py)
