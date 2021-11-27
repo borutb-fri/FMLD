@@ -1,7 +1,7 @@
 # Face Mask Label Dataset (FMLD)
 The Face Mask Label Dataset (FMLD) is a challenging, in the wild dataset for experimentation with face masks. The dataset is the biggest annotated face mask dataset with 63,072 face images.
 
-This repository contains labels and annotations for all images and the PyTorch implementation of the following paper: [How to Correctly Detect Face-Masks for COVID-19 from Visual Information?](https://www.mdpi.com/2076-3417/11/5/2070/htm) [1]
+This repository contains labels and annotations for all images and the PyTorch implementation of the following paper: [How to Correctly Detect Face-Masks for COVID-19 from Visual Information?](https://www.mdpi.com/2076-3417/11/5/2070/htm) [[1]](#citation)
 
 Images annotated for FMLD were taken from datasets:
 - [MAFA](https://imsg.ac.cn/research/maskedface.html) [2] [MAFA Datasets: [Google Drive](https://drive.google.com/open?id=1nbtM1n0--iZ3VVbNGhocxbnBGhMau_OG), [Kaggle](https://www.kaggle.com/rahulmangalampalli/mafa-data)] and 
