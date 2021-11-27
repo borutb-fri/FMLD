@@ -32,7 +32,7 @@ for i=1:gt_num
   end
   
   if (save_faces || show_annotations)
-    if ~exist(image_path,'dir')
+    if ~exist(image_path)
       [filepath,~,~] = fileparts(image_path);
       fprintf('Download %s dataset and provide images in folder: %s.\n',mlStruct.annotation.source.database,filepath);
     end
