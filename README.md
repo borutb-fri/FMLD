@@ -66,7 +66,7 @@ Python code : [show_save_gt.py](show_save_gt.py)
 ![shema](images/shema.png "Overall pipeline designed for the evaluation procedure.")
 
 ## Citation
-If you use our annotations, please use following citations
+If you use our annotations or models, please use following citations
 ```
 [1] 
 @Article{app11052070,
